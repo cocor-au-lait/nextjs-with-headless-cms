@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recipes",
+  "info": {
+    "singularName": "recipe",
+    "pluralName": "recipes",
+    "displayName": "Recipe",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "name": {
+      "type": "string"
+    },
+    "times": {
+      "type": "integer"
+    },
+    "ingredients": {
+      "type": "richtext"
+    },
+    "preparation": {
+      "type": "richtext"
+    }
+  }
+}

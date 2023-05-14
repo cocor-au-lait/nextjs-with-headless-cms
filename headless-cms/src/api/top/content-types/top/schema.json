@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "tops",
+  "info": {
+    "singularName": "top",
+    "pluralName": "tops",
+    "displayName": "Top"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Slogan": {
+      "type": "text"
+    }
+  }
+}

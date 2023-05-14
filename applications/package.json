@@ -1,0 +1,7 @@
+{
+  "name": "next-headless-cms",
+  "engines": {
+    "node": "18.x"
+  },
+  "packageManager": "pnpm@8.5.0"
+}
